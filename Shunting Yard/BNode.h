@@ -13,12 +13,13 @@ class BNode {
  public:
     BNode(char newC); //constructer
     //getters
-    BNode* getLeft();
+    char getChar();
     BNode* getRight();
+    BNode* getLeft();
     BNode* getNext();
     //setters
-    void setLeft(BNode* newLeft);
     void setRight(BNode* newRight);
+    void setLeft(BNode* newLeft);
     void setNext(BNode* newNext);
     ~BNode(); //destructer
   
