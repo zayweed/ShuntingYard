@@ -83,7 +83,6 @@ int main() {
 
         else {
             operatorTree(shead2, thead, a);
-            push(shead2, a);
         }
 
         qhead = qhead->next;
