@@ -2,11 +2,11 @@
 
 using namespace std;
 
-struct Stack {
-
-  Stack* prev;
-  Stack* next;
-  char c;
+struct Stack { //struct of stack
+    //local variables
+    Stack* prev;
+    Stack* next;
+    char c;
 
 };
 

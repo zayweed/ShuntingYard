@@ -2,10 +2,10 @@
 
 using namespace std;
 
-struct Queue {
-
-  Queue* prev;
-  Queue* next;
-  char c;
+struct Queue { //struct of queue
+    //local variables
+    Queue* prev;
+    Queue* next;
+    char c;
 
 };
